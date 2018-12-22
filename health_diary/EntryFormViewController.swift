@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  EntryFormViewController.swift
 //  health_diary
 //
 //  Created by Jaehyuk Rhee on 12/22/18.
@@ -8,13 +8,15 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class EntryFormViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "Create New Entry"
     }
-
-
+    
+    
 }
 

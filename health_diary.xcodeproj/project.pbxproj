@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AE5DE64421CEB74F005F2206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE64321CEB74F005F2206 /* AppDelegate.swift */; };
-		AE5DE64621CEB74F005F2206 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE64521CEB74F005F2206 /* FirstViewController.swift */; };
-		AE5DE64821CEB74F005F2206 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE64721CEB74F005F2206 /* SecondViewController.swift */; };
+		AE5DE64621CEB74F005F2206 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE64521CEB74F005F2206 /* EntriesViewController.swift */; };
+		AE5DE64821CEB74F005F2206 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE64721CEB74F005F2206 /* SettingsViewController.swift */; };
 		AE5DE64B21CEB74F005F2206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5DE64921CEB74F005F2206 /* Main.storyboard */; };
 		AE5DE64D21CEB750005F2206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5DE64C21CEB750005F2206 /* Assets.xcassets */; };
 		AE5DE65021CEB750005F2206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5DE64E21CEB750005F2206 /* LaunchScreen.storyboard */; };
 		AE5DE65B21CEB750005F2206 /* health_diaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE65A21CEB750005F2206 /* health_diaryTests.swift */; };
 		AE5DE66621CEB750005F2206 /* health_diaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE66521CEB750005F2206 /* health_diaryUITests.swift */; };
+		AE5DE67621CEC800005F2206 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE67521CEC800005F2206 /* EntryViewController.swift */; };
+		AE5DE67821CEC8AF005F2206 /* EntryFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE67721CEC8AF005F2206 /* EntryFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		AE5DE64021CEB74F005F2206 /* health_diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = health_diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5DE64321CEB74F005F2206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE5DE64521CEB74F005F2206 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AE5DE64721CEB74F005F2206 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AE5DE64521CEB74F005F2206 /* EntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
+		AE5DE64721CEB74F005F2206 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AE5DE64A21CEB74F005F2206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE5DE64C21CEB750005F2206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5DE64F21CEB750005F2206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		AE5DE66121CEB750005F2206 /* health_diaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = health_diaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5DE66521CEB750005F2206 /* health_diaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = health_diaryUITests.swift; sourceTree = "<group>"; };
 		AE5DE66721CEB750005F2206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5DE67521CEC800005F2206 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		AE5DE67721CEC8AF005F2206 /* EntryFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				AE5DE64321CEB74F005F2206 /* AppDelegate.swift */,
-				AE5DE64521CEB74F005F2206 /* FirstViewController.swift */,
-				AE5DE64721CEB74F005F2206 /* SecondViewController.swift */,
+				AE5DE64521CEB74F005F2206 /* EntriesViewController.swift */,
+				AE5DE64721CEB74F005F2206 /* SettingsViewController.swift */,
 				AE5DE64921CEB74F005F2206 /* Main.storyboard */,
+				AE5DE67721CEC8AF005F2206 /* EntryFormViewController.swift */,
+				AE5DE67521CEC800005F2206 /* EntryViewController.swift */,
 				AE5DE64C21CEB750005F2206 /* Assets.xcassets */,
 				AE5DE64E21CEB750005F2206 /* LaunchScreen.storyboard */,
 				AE5DE65121CEB750005F2206 /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5DE64821CEB74F005F2206 /* SecondViewController.swift in Sources */,
+				AE5DE64821CEB74F005F2206 /* SettingsViewController.swift in Sources */,
+				AE5DE67621CEC800005F2206 /* EntryViewController.swift in Sources */,
 				AE5DE64421CEB74F005F2206 /* AppDelegate.swift in Sources */,
-				AE5DE64621CEB74F005F2206 /* FirstViewController.swift in Sources */,
+				AE5DE67821CEC8AF005F2206 /* EntryFormViewController.swift in Sources */,
+				AE5DE64621CEB74F005F2206 /* EntriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

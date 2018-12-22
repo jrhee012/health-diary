@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  EntryViewController.swift
 //  health_diary
 //
 //  Created by Jaehyuk Rhee on 12/22/18.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class EntryViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "Entry"
     }
-
-
+    
+    
 }
-
