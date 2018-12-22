@@ -17,6 +17,7 @@
 		AE5DE66621CEB750005F2206 /* health_diaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE66521CEB750005F2206 /* health_diaryUITests.swift */; };
 		AE5DE67621CEC800005F2206 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE67521CEC800005F2206 /* EntryViewController.swift */; };
 		AE5DE67821CEC8AF005F2206 /* EntryFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE67721CEC8AF005F2206 /* EntryFormViewController.swift */; };
+		AE5DE67A21CED14E005F2206 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DE67921CED14E005F2206 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AE5DE66721CEB750005F2206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5DE67521CEC800005F2206 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		AE5DE67721CEC8AF005F2206 /* EntryFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryFormViewController.swift; sourceTree = "<group>"; };
+		AE5DE67921CED14E005F2206 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				AE5DE64C21CEB750005F2206 /* Assets.xcassets */,
 				AE5DE64E21CEB750005F2206 /* LaunchScreen.storyboard */,
 				AE5DE65121CEB750005F2206 /* Info.plist */,
+				AE5DE67921CED14E005F2206 /* UIViewExtension.swift */,
 			);
 			path = health_diary;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5DE67A21CED14E005F2206 /* UIViewExtension.swift in Sources */,
 				AE5DE64821CEB74F005F2206 /* SettingsViewController.swift in Sources */,
 				AE5DE67621CEC800005F2206 /* EntryViewController.swift in Sources */,
 				AE5DE64421CEB74F005F2206 /* AppDelegate.swift in Sources */,
