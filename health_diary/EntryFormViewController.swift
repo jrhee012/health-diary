@@ -9,12 +9,14 @@
 import UIKit
 
 class EntryFormViewController: UIViewController {
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    @IBOutlet weak var cancelButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.title = "Create New Entry"
+        self.title = "New Diary"
     }
     
     
