@@ -9,16 +9,26 @@
 import UIKit
 
 class EntryFormViewController: UIViewController {
-    @IBOutlet weak var saveButton: UIBarButtonItem!
-    @IBOutlet weak var cancelButton: UIBarButtonItem!
+    @IBAction func datePicker(_ sender: UIDatePicker) {
+        let dateFormatter = DateFormatter()
+        
+        dateFormatter.dateStyle = DateFormatter.Style.short
+        dateFormatter.timeStyle = DateFormatter.Style.short
+        
+        let strDate = dateFormatter.string(from: sender.date)
+        
+        print(strDate)
+    }
+    
+    @IBAction func saveButton(_ sender: Any) {
+        print("save button!!!")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+    
         self.title = "New Diary"
     }
-    
-    
 }
 
