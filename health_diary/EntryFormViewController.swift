@@ -22,6 +22,8 @@ class EntryFormViewController: UIViewController {
     
     @IBAction func saveButton(_ sender: Any) {
         print("save button!!!")
+        
+        navigationController?.popViewController(animated: true)
     }
     
     override func viewDidLoad() {
